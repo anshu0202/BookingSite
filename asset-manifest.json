@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/BookingSite/static/css/main.54bb629e.css",
+    "main.js": "/BookingSite/static/js/main.c2067e8b.js",
+    "static/js/787.3005e8f8.chunk.js": "/BookingSite/static/js/787.3005e8f8.chunk.js",
+    "static/media/beach.jpg": "/BookingSite/static/media/beach.e00057024e53a73a1a6d.jpg",
+    "static/media/mastercard11.png": "/BookingSite/static/media/mastercard11.80a52eb6701e1bd8f4dc.png",
+    "static/media/reno.jpg": "/BookingSite/static/media/reno.b1d5ce12ac8d76311d37.jpg",
+    "static/media/hotel.jpg": "/BookingSite/static/media/hotel.363691e6fc8a5b3f3d32.jpg",
+    "static/media/hotel_feature.jpg": "/BookingSite/static/media/hotel_feature.363691e6fc8a5b3f3d32.jpg",
+    "static/media/vills.jpg": "/BookingSite/static/media/vills.a7dfe332da210a25ef44.jpg",
+    "static/media/austin.jpg": "/BookingSite/static/media/austin.0d8c423323d96514404a.jpg",
+    "static/media/resort.jpg": "/BookingSite/static/media/resort.8518ae851e3e56cc4c5f.jpg",
+    "static/media/dublin.jpeg": "/BookingSite/static/media/dublin.b23f6bc736831b35a2d3.jpeg",
+    "static/media/Indigo.png": "/BookingSite/static/media/Indigo.b29634ef122ec8776050.png",
+    "static/media/airport.jpg": "/BookingSite/static/media/airport.d8d5f4285ff07e65da6d.jpg",
+    "static/media/spicejet.png": "/BookingSite/static/media/spicejet.a61ab4df88fbbdb96fd5.png",
+    "static/media/paypal-logo.png": "/BookingSite/static/media/paypal-logo.93ff7ed0bb75e5bd70ee.png",
+    "static/media/Google-Pay-UPI-limit.jpg": "/BookingSite/static/media/Google-Pay-UPI-limit.1d3aba3ff68a00163299.jpg",
+    "static/media/logo.jpg": "/BookingSite/static/media/logo.9d0e86e53be8dea14804.jpg",
+    "static/media/Paytm.jpg": "/BookingSite/static/media/Paytm.e7e0e23da90323c235bd.jpg",
+    "static/media/AirIndia.png": "/BookingSite/static/media/AirIndia.2adcc083e38673fb6392.png",
+    "static/media/phonePe.jpg": "/BookingSite/static/media/phonePe.e704f523571413a9ebc5.jpg",
+    "static/media/emirates.jpg": "/BookingSite/static/media/emirates.4d030fbcf347a458ed86.jpg",
+    "static/media/bed.jpg": "/BookingSite/static/media/bed.3ff299519109525f678e.jpg",
+    "static/media/searchImg.jpg": "/BookingSite/static/media/searchImg.3ff299519109525f678e.jpg",
+    "static/media/logo.svg": "/BookingSite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BookingSite/index.html",
+    "main.54bb629e.css.map": "/BookingSite/static/css/main.54bb629e.css.map",
+    "main.c2067e8b.js.map": "/BookingSite/static/js/main.c2067e8b.js.map",
+    "787.3005e8f8.chunk.js.map": "/BookingSite/static/js/787.3005e8f8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54bb629e.css",
+    "static/js/main.c2067e8b.js"
+  ]
+}
