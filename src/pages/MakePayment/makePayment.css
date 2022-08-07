@@ -1,0 +1,121 @@
+.pay{
+    background-color: #1e72e7;
+    color: white;
+    width: 80%;
+    margin: 5% auto 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.paymentMethod{
+    flex: 1;
+    margin-top: 2%;
+}
+.paymentItems{
+    font-size: 20px;
+    margin-left: 25%;
+    display: flex;
+    gap: 10px;
+    height: 10%;
+}
+.paymentItems input{
+    cursor: pointer;
+}
+.paymentItems img{
+    float: left;
+    width: 200px;
+    height: 40px;
+    object-fit: cover;
+    margin-bottom: 10%;
+    border-radius: 2%;
+}
+.payMoney{
+    cursor: pointer;
+    background-color: #003580;
+    color: white;
+    width: 40%;
+    margin-left: 10%;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 5px 0;
+    margin-top: 2.5rem;
+    font-weight: bold;
+}
+.payMoney:hover{
+    color: #a1a2a3;
+}
+.UserDetails{
+    flex: 1;
+    margin-top: 2%;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10%;
+}
+.UserDetails h1{
+    color: rgb(39, 190, 39);
+}
+.uDetailItem{
+    font-size: 20px;
+    color: #165fc5;
+    width: 50%;
+    margin-left: 35%;
+    text-align: left;
+}
+.key{
+    margin-right: 1%;
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    .pay{     
+        /* ******** */
+       
+        flex-direction: column;
+        width: 130vh;
+        margin-top: 10%;
+        margin-left: 20%;
+        height:max-content;
+        padding-bottom: 25%;
+
+        }
+
+    
+    .paymentMethod h1{
+        font-size: 65px;
+    }
+ 
+
+    .paymentItems img{
+        width: 40vh;
+        height: 20vh;
+        margin-bottom: 10%;
+        border-radius: 2%;
+    }
+
+    .UserDetails{
+        flex: 1;
+        margin-top: 2%;
+       
+        padding-top: 2%;
+        width: 120vh;
+        margin-left: 7%;
+    }
+    .UserDetails h1{
+        color: black;
+        font-size: 80px;
+    }
+    .uDetailItem{
+        font-size: 50px;
+        color: #165fc5;
+        width: 50%;
+        margin-left: 20%;
+        text-align: left;
+        padding: 1%;
+    }
+
+
+        }

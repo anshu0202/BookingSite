@@ -1,0 +1,121 @@
+.trainList{
+    background-color: white;
+    width: 80%;
+    margin: 2% auto 1%;
+    border: 0.5px solid rgb(176, 173, 173);
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+    margin-bottom: 2%;
+}
+.TListItem{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.TListItemHead{
+    display: flex;
+    background-color: white;
+}
+.Tnum{
+    display: flex;
+}
+.TRunDay{
+    color: rgb(0, 255, 102);
+}
+.TNumber{
+    color: rgb(155, 152, 152);
+    margin-right: 2%;
+}
+.Dtime{
+    font-weight: 700;
+
+}
+.JourneyDuration{
+    display: flex;
+}
+.ToStation{
+    text-align: center;
+    font-weight: 500;
+}
+.TDuration{
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    margin-left: 10%;
+    gap: 10px;
+}
+.TListItemContent{
+    background-color: white;
+   display: flex;
+   margin-top: 3%;
+}
+.TListBox{
+    background-color: white;
+    margin-right: 4%;
+    padding: 1% 2%;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+    margin-bottom: 4%;
+    width: 80%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.TPrice{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.TCoach{
+    display: flex;
+}
+.TQuota{
+    color: rgb(255, 98, 0);
+}
+.tatkal{
+    background-color: #febb02;
+    color: white;
+    border-radius: 5px;
+    width: 110%;
+    padding: 2%;
+    margin-left: 5px;
+}
+.Ticketcancel{
+    margin-top: 20%;
+}
+.UpdateTime{
+    color: rgb(137, 137, 137);
+}
+.BookNowBtnT{
+    margin-top: 2%;
+    margin-left: 4%;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: rgb(30, 137, 225);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.BookNowBtnT:hover{
+    color: rgb(215, 209, 209);
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    .trainList{
+        background-color: white;
+        width: 143vh;
+        margin: 2% auto 1%;
+        border: 0.5px solid rgb(176, 173, 173);
+        box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+        margin-bottom: 2%;
+        font-size: 30px;
+    }
+    .TListItemContent{
+       font-size: 55px;
+       flex-direction: column;
+    }
+    .BookNowBtnT{
+        font-size: 45px;
+        margin-left: 70%;
+        
+    }
+}

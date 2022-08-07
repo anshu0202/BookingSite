@@ -1,0 +1,131 @@
+.CabInput{
+    display: flex;   
+}
+.DepartDay{
+    width: 40%;
+    margin-left: 1%;
+}
+.CabIcon{
+display: flex;
+width: 50%;
+}
+.CabTime{
+    margin-left: 3%;
+}
+.CabsAvailable{
+    background-color: #febb02;
+    width: 86%;
+    margin: 0 auto;
+    color: black;
+     box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.CabDistance{
+    display: flex;
+    width: 100%;
+    background-color: #f5dfa2;
+    border-bottom: 2px solid rgb(164, 160, 160);
+}
+.DistancePic{
+    margin-top: 1.5%;
+    margin-left: 2%;
+    margin-right: 3%;
+    color: black;
+}
+.Conditions{
+    margin-top: -5%;
+    margin-bottom: 10%;
+}
+.cabCondition{
+    color: rgb(82, 80, 80);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+}
+.CabItems{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2% 1%;
+    border-bottom:2px solid rgb(236, 234, 234) ;
+}
+.CabName{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 2%;
+}
+.CabPic{
+    margin-top: 7%;
+}
+.CabNamedesc{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.CabDetail{
+    /* background-color: blueviolet; */
+    /* margin-bottom: 65%; */
+    margin-top: -10%;
+}
+.CabDetailName{
+    margin-bottom: 5%;
+}
+.cPriceBook{
+    text-align: center;
+}
+.Time{
+    width: 200%;
+}
+/* input [type="time"] :: -webkit-calendar-picker-indicator{
+    display: none;
+} */
+
+/* input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-calendar-picker-indicator{
+    display: none;
+    -webkit-appearance: none;
+}  */
+input[type="time"]{
+    display: flex;
+   flex-flow: row-reverse;
+   padding: 8px;
+   height: auto;
+   color: #003580;
+}
+
+.numPassenger{
+    width: 12%;
+}
+.distText{
+    margin: 1% 2%;
+    font-size: 20px;
+    font-weight: 700;
+}
+@media (min-width:300px) and (max-width:500px) {
+    .CabsAvailable{
+        background-color: #febb02;
+        width: 86%;
+        margin: 0 auto;
+        color: black;
+         box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+         /* ************************* */
+         width: 130vh;
+         font-size: 55px;
+         margin-left: 18%;
+    }
+    .BookNowBtn{
+        font-size: 45px;
+    }
+    .DistanceDesc{      
+        width: 50vh;
+    }
+    .cabCondition{
+        color: rgb(82, 80, 80);
+        font-size: 46px;
+        font-weight: 500;
+        display: block;
+    }
+    .distText{
+            font-size: 55px;
+        margin-left: -15%;
+    }
+}

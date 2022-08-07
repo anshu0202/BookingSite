@@ -1,0 +1,116 @@
+.trainBook{
+    display: flex;
+    margin: 7% 8%;
+  
+}
+.trainDetails{
+    flex: 1;
+    background-color: #febb02;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+    border-radius: 10px;
+    padding: 10px;
+    position: sticky;
+    top: 7%;
+    height: max-content;
+}
+
+.pdBody{
+    flex: 3;
+    background-color:rgb(238, 229, 229) ;
+    /* width: 80%; */
+    margin: 4% auto 1%;
+    padding: 2%;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0;
+    margin-left: 2%;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.formControl{
+    background-color: #003580;
+    padding-bottom: 3%;
+}
+.pdHeading{
+    text-align: center;
+}
+.pDetails{
+    width: 60%;
+    margin: 1% auto;
+    margin-left: 25%;
+}
+.passengerInput{
+    display: flex;
+    margin-bottom: 2%;
+}
+.Userinput{
+    position: absolute;
+    margin-left: 11%;
+}
+.Userinput input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 1% 3%;
+}
+.radio{
+    width: 150%;
+}
+.radio input{
+    margin-left: 10%;
+}
+.AddPass{
+    /* position: absolute; */
+    /* right: 0; */
+    background-color: white;
+    color: #003580;
+    font-size: 200px;
+}
+.FilledDetails{
+    margin-top: 10%;
+    background-color:rgb(238, 229, 229) ;
+}
+.trainBookButton{
+  padding:2%;
+  position: relative;
+  left: 33%;
+}
+.passDetfooter{
+    margin-left: 15%;
+
+}
+@media (min-width:300px) and (max-width:500px) {
+    .trainBook{
+        display: flex;
+        margin-left: 35%;
+       flex-direction: column;
+       width: 115vh;
+       gap: 30px;
+    }
+    .trainDetails{
+        flex: 1;     
+        border-radius: 20px;
+        position: static;
+        font-size: 55px;
+    }
+    .pdBody{
+        flex: 1;
+        background-color:rgb(238, 229, 229) ;
+        /* width: 80%; */
+        margin: 4% auto 1%;
+        padding: 2%;
+        color: white;
+        text-align: left;
+        font-size: 50px;
+        margin-top: 0;
+        margin-left: 0%;     
+    }
+    .pDetails{       
+        margin-left: 4%;
+        width: 100vh;
+    }
+    .trainBookButton{
+       width: 37%;
+        font-size: 45px;
+    }
+}

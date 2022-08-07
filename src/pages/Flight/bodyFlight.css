@@ -1,0 +1,149 @@
+.fContainer{
+    width: 80%;
+    margin: 4% auto ;
+    background-color: #003580;
+    text-align: center;
+    color: white;
+    padding: 3%;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.Flightheader{
+    margin-top: 1%;
+}
+.TravelOption{
+    margin-top: 3%;
+}
+.OptionList{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    color: #003580;
+    width: 20%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 0;
+    margin-right: 3%;
+}
+.OptionList:hover{
+    background-color: rgb(125, 122, 122);
+}
+.InputItem{
+    margin-top: 2%;
+    background-color: rgb(182, 178, 178);
+    color: #003580;
+    text-align: left;
+    font-size: 20px;
+}
+
+.InputItem span{
+    padding-left: 3.2%;
+    font-weight: 500;
+}
+.EnterOption{
+    padding-left: 1%;
+}
+.InputItem input{
+    border: none;
+    outline: none;
+    background-color: rgb(182, 178, 178);
+    font-size: 20px;
+    width: 80%;
+    margin-left: 0.5%;
+    cursor: pointer;
+    color: #003580;
+}
+.SelectOption{
+    background-color: rgb(182, 178, 178);
+    color: #003580;
+    text-align: left;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 0.5%;
+}
+/* yaha css nhi lgg rha h */
+/* .SelectOption select{
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    padding-left: 1.5rem;
+} */
+
+.SearchFlight{
+    cursor: pointer;
+    background-color: #1c74ee;
+    color: white;
+    width: 30%;
+    margin: 3% auto 1%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.SearchFlight:hover{
+    color: rgb(215, 211, 211);
+}
+@media (min-width:300px ) and (max-width:500px) {
+    .fContainer{
+        width: 80%;
+        margin: 4% auto ;
+        background-color: #003580;
+        text-align: center;
+        color: white;
+        padding: 3%;
+        box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+        /* *********************** */
+       width: 130vh;
+       margin-left: 15%;
+       height: 190vh;
+    }
+    .Flightheader{
+     font-size: 60px;
+    }
+    .TravelOption{
+        
+        flex-direction: column;
+    }
+    .OptionList{
+        display: block;
+        margin:auto;
+        font-size: 70px;
+        width: 100vh;
+        height: 10vh;
+        margin-bottom: 2%;
+        padding: 2% 0;
+        padding-bottom: 2%;
+    }
+    .InputItem{
+        margin-top: 1%;
+        background-color: rgb(182, 178, 178);
+        color: #003580;
+        text-align: left;
+        font-size: 50px;
+    }
+    .InputItem input{
+        
+        font-size: 45px;
+        width: 50%;
+        margin-left: 0.5%;
+        cursor: pointer;
+        color: #003580;
+    }
+    .SelectOption{     
+        font-size: 40px;    
+    }
+    .Mopt{
+        font-size: 10px;
+    }
+    .SearchFlight{
+        width: 40%;
+        margin: 3% auto 1%;
+        border: none;
+        border-radius: 10px;
+        font-size: 55px;
+        font-weight: bold;
+        padding: 10px 0;
+    }
+}

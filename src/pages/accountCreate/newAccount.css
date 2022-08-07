@@ -1,0 +1,111 @@
+.CreateContainer{
+   background-color: #003580;
+   margin: 5% auto;
+   width: 50%;
+   text-align: center;
+   padding: 2% 0;
+   color: white;
+   box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.back{
+    cursor: pointer;
+    background-color: #1c74ee;
+    color: white;
+    width: 5%;
+    margin-left: 2%;
+    margin-top: 3%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.back:hover{
+    color: rgb(177, 174, 174);
+}
+.signUpHeader{
+    width: 45%;
+    color: white;
+    margin: 1.5% auto;
+
+}
+.signUpHeader:hover{
+    color: rgb(227, 226, 226);
+}
+.entryItem>input{
+    width: 50%;
+    font-size: 20px;
+    margin-bottom: 2%;
+    padding-left: 1.5%;
+    border: none;
+    outline: none;
+    background-color: rgb(227, 226, 226);
+    border-radius: 10px;
+}
+.hrLine{
+    width: 50%;
+    color: yellow;
+    margin-top: 2%;
+}
+.smHead{
+    font-weight: 500;
+}
+.SocialMedia{
+    text-align: center;
+}
+.cAccount{
+    width: 20%;
+}
+.SocialItem{
+    width: 20%;
+    margin: 0 37%;
+}
+.sIcon{
+    display: flex;
+    align-items: center;
+    grid-area: 10px;
+    gap: 10px;
+    width: 20%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.sIcon:hover{
+   color: rgb(194, 193, 193);
+}
+@media (min-width:300px) and (max-width:500px) {
+    .back{
+        margin-top: 10vh;
+        width: 20vh;
+        font-size: 40px;
+    }
+    .CreateContainer{
+        width: 120vh;  
+        height: 120vh;
+        margin-left: 10%;
+        font-size: 30px;   
+     }
+     .entryItem input{
+        
+        width: 80%;
+        font-size: 30px;
+     }
+     .cAccount{
+        
+        width: 40%;
+        font-size: 35px;
+     }
+     .SocialItem{
+        width: 30%;  
+     }
+     .Facebook{
+        width: 100%;
+        text-align: center;
+     }
+     .Google{
+        width: 100%;
+        text-align: center;
+     }
+     .Twitter{
+        width: 100%;
+        text-align: center;
+     }
+}

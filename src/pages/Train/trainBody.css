@@ -1,0 +1,135 @@
+/* .Date input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator{
+    display: none;
+    -webkit-appearance: none;
+} */
+input[type="date"]{
+    display: flex;
+   flex-flow: row-reverse;
+   padding: 8px;
+   height: auto;
+   color: #003580;
+}
+/* ::-webkit-calendar-picker-indicator{
+    filter: invert(0.1) sepia() saturate(10000%) hue-rotate(0deg);
+} */
+.Date{
+   display: flex;
+
+}
+.calendar{
+    cursor: pointer;
+}
+.TrainSearch{
+    width: 80%;
+    margin: 4% auto ;
+    background-color: #003580;
+    text-align: center;
+    color: white;
+    padding: 3%;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.trainDesc{
+    background-color: #febb02;
+    width: 86%;
+    margin: 5% auto;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.TrainInfo{
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+}
+.TrainInfoDetails{
+    display: flex;
+    background-color: #febb02;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.serachT{
+   width:13%
+}
+.trainInfo{
+    /* padding: 5%; */
+    background-color: white;
+    margin-right: 2%;
+    cursor: pointer;
+    margin-bottom: 5%;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+    border-radius: 5%;
+    flex: 1;
+    font-size: 20px;
+    font-weight: 600;
+    
+
+}
+.trainInfo:hover{
+    background-color: rgb(225, 222, 222);
+}
+.tIcon{
+    text-align: center;
+    margin-top: 6%;
+    color: #febb02;
+}
+.railwayInfo{
+    padding: 10%;
+    text-align: center;
+    padding-top: 5%;
+}
+.railAccouncements{
+    background-color: #febb02;
+    width: 82%;
+    margin: 5% auto;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+    padding:  1% 2%;
+}
+.Announce{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+.AnnounceIcon{
+    font-size: 20px;
+}
+.Announce h1{
+    display: inline;
+}
+.AccounceContent{
+    background-color: rgb(192, 184, 184);
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+    padding: 1% 2%;
+}
+@media (min-width:300px) and (max-width:500px) {
+    .fContainerTrain{
+    
+        width: 140vh;
+    }
+    .trainDesc{
+        background-color: #febb02;
+        width: 86%;
+        margin: 5% auto;
+     
+        /* ********************** */
+    }
+    .TrainInfoDetails{
+        display: flex;
+        background-color: #febb02;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        /* ****************** */
+        flex-direction: column;
+    }
+    .railwayInfo{
+        padding: 10%;
+        text-align: center;
+        padding-top: 5%;
+        /* ********************* */
+        font-size: 55px;
+    }
+    .serachT{
+        width:23%
+     }
+
+}

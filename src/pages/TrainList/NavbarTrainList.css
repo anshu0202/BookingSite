@@ -1,0 +1,38 @@
+.NTContainer{
+    background-color: #003580;
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+.NTItems{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.NTItem{
+    background-color: rgb(226, 220, 220);
+    color: rgb(8, 65, 88);
+    font-size: 20px;
+    flex: 1;
+    margin-right: 1%;
+    font-weight: 500;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.NTIcon{
+    width: 30%;
+}
+.SNTItem{
+    color: #003580;
+    font-weight: 700;
+}
+@media (min-width:300px) and (max-width:500px) {
+    .NTContainer{
+        background-color: #003580;
+        color: white;
+        padding: 1%;
+        text-align: center;
+        width: 143vh; 
+        font-size: 65px;
+    }
+}

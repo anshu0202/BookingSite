@@ -1,0 +1,125 @@
+.FlightContent{
+    background-color: white;
+    width: 70%;
+    margin: 4% auto;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.FlightDetails{
+ display: flex;
+ justify-content: space-between;
+ padding: 2% 3%;
+ margin-left: 2%;
+ background-color: white;
+}
+.FlightLogo{
+    display: flex;
+    width: 20%;
+}
+.FlightLogo img{
+    width: 30%;
+    height: 55%;
+    border-radius: 5%;
+}
+.FlightName{
+    text-align: center;
+    padding: 1%;
+    font-weight: 700;
+}
+.FDuration{
+    display: flex;
+    gap: 30px;
+    margin-left: -15%;
+}
+.PriceControl{
+    display: flex;
+    width: 20%;
+}
+.AED{
+   font-weight: 700;
+}
+.AEDBtn{
+    background-color: rgb(173, 173, 249);
+    color: blue;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 60%;
+    height: 60%;
+    border: 1px solid blue;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.FlightDiscount{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.5% 0;
+    background-color: rgb(209, 141, 47);
+    margin-left: 2%;
+}
+.FlightBook{
+    margin-left: 2%;
+    margin-top: 5%;
+    background-color: rgb(240, 235, 235);
+}
+.FlightBookItems{
+    display: flex;
+    gap: 1%;
+}
+.FBookItem{
+    width: 30%;
+}
+.FBkey{
+    text-align: left;
+    font-weight: 500;
+    padding: 10%;
+    background-color: rgb(242, 238, 238);
+    padding-bottom: 2%;
+
+}
+.FBDesc{
+    padding-left: 1%;
+    margin-top: 10%;
+}
+.FBookNow{
+    margin-top: 25%;
+    text-align: center;
+}
+.BookAED{
+    font-weight: 700;
+}
+.BookNowBtn{
+    margin-top: 2%;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: rgb(30, 137, 225);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.BookNowBtn:hover{
+    color: rgb(215, 209, 209);
+}
+@media (min-width:300px) and (max-width:500px) {
+    .FlightContent{
+        background-color: white;
+        width: 70%;
+        margin: 4% auto;
+        box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+        /* ******** */
+        width: 135vh;
+        margin-left: 10%;
+        font-size: 23px;
+    }
+    .AEDBtn{
+       
+        width: 60%;
+        height: 55%;
+       
+        font-size: 35px;
+        margin-bottom: 2%;
+        position: relative;
+        bottom: 20px;
+    }
+}

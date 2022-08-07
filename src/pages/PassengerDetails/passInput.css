@@ -1,0 +1,67 @@
+.addPass{
+    /* background-color: white; */
+    position: absolute;
+    color: #003580;
+    right:15%;
+}
+@media (min-width:300px) and (max-width:500px) {
+   
+    .passengerInput{
+      
+        /* display: flex; */
+    }
+    
+    .Userinput input{
+        margin-left: 70%;
+        margin-bottom: 40%;
+        font-size: 40px;
+    }
+    .radio span {
+        margin-left: 40%;
+        margin-bottom: 0%;
+        /* background-color: red; */
+        display: inline;
+        /* border: 2px solid yellow; */
+    }
+    .radio{
+        /* background-color: black; */
+        width: 60vh;
+        height: 10vh;
+        position: relative;
+        left: 250px;
+    }
+    .maleP{
+            position: relative;
+            bottom: 270px;
+            right: 120px;
+    }
+    .femaleP{
+        position: relative;
+        bottom: 600px;
+        left: 200px;
+        z-index: 2;
+    }
+    .addPass{
+        /* background-color: white; */
+        position: absolute;
+        color: #003580;
+        right:-150%;
+    }
+    /* .radio input{ */
+        /* background-color: black; */
+        /* width: 10vh;
+        height: 80%;
+    } */
+    .genIpM{
+        background-color: aqua;
+        /* height: 20em; */
+        position: relative;
+        right: 310px;
+        bottom: 10px;
+        /* position: ; */
+    }
+    .genIpF{
+        position: relative;
+        bottom: 345px;
+    }
+}

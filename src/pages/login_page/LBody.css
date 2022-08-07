@@ -1,0 +1,139 @@
+.bContainer{
+    background-color: #003580;
+    color: white;
+    margin: 10% auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.LoginIn>form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.LoginIn{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+    color: white;
+}
+.LoginIn h1{
+    width: 40%;
+    margin: 0 auto 10px;
+}
+.LoginIn h1:hover{
+    text-decoration: underline;
+}
+.user>input{
+    font-size: 20px;
+    outline: none;
+    color: black;
+    background-color: rgb(227, 226, 226);
+    border-radius: 10px;
+    margin-left: 1%;
+    padding: 1%;
+    padding-left: 3%;
+    border: none;
+}
+.LoginFormat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+}
+.remember{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-left: 2%;
+}
+.remember>input{
+    cursor: pointer;
+}
+.remember:hover{
+    text-decoration: underline;
+    color: rgb(175, 174, 174);
+}
+.forget{
+    cursor: pointer;
+    /* margin-right: 0; */
+}
+.forget:hover{
+    text-decoration: underline;
+    color: rgb(175, 174, 174);
+}
+.btn{
+    cursor: pointer;
+    background-color: #1c74ee;
+    color: white;
+    width: 30%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.SocialItemLogin{
+    margin-left: 2%;
+}
+.WelcomeContent{
+    flex: 1;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 15%;
+    color: white;
+}
+.WelcomeContent h1{
+    width: 40%;
+    margin: 0 auto 10px;
+}
+.WelcomeContent h1:hover{
+    text-decoration: underline;
+}
+.WelcomeContent>h3{
+    width: 60%;
+    margin: 0 auto 10px;
+    font-weight: 450;
+}
+.WelcomeContent>span{
+    display: block;
+    margin-bottom: 3%;
+    color: rgb(175, 174, 174);
+    text-decoration: underline;
+}
+.WelcomeContent>span:hover{
+    cursor: pointer;
+}
+.SignUpBtn{
+    cursor: pointer;
+    background-color: #1c74ee;
+    color: white;
+    width: 30%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 0;
+}
+.Loginfooter{
+    /* background-color: yellow; */
+    margin-top: 2%;
+    padding-bottom: 5%;
+}
+@media (min-width:300px ) and (max-width:500px) {
+    .bContainer{
+        flex-direction:column;
+        margin: 20% auto 0%;
+        width: 120vh;
+        margin-left: 9%;
+       height: 130vh;
+    }
+    .Loginfooter{  
+        width: 100vh;
+        margin-left: 15% ;
+    }
+}

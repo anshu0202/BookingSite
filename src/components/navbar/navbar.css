@@ -1,0 +1,192 @@
+.navBarW{
+    background-color:#003580;
+    margin-top: 0;
+    /* background-color: white; */
+}
+.navbar{
+    height: 80px;
+    background-color:#003580;
+    display: flex;
+   
+}
+.navContainer{
+    /* border: 2px solid yellow; */
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.sideBar{
+    background-color: white;
+    padding: 0.5%;
+    border-radius: 5px;
+    /* position: relative; */
+    margin-left: -11%;
+    margin-top: 1%;
+}
+.setIconColor{
+    color: #003580;
+    
+}
+.viewSideBar{
+    z-index: 100;
+    position: absolute;
+    /* background-color: aqua; */
+    width: 20%;
+    background-color: #003580;
+    color: white;
+    top: 11%;
+    /* left:0; */
+    height: 100vh;
+    width: 260px;
+    left: -21%;
+    /* transition-delay: 1s; */
+    transform:translateX(20%);
+    transition: all 0.6s;
+}
+
+.active{
+    left: -4%;
+}
+.siteName{
+    margin-left: 18%;
+}
+.profileDesc{
+    display: flex;
+    margin-top: 2%;
+    flex-direction: column;
+    height: 150%;
+    margin-right: 4%;
+    z-index: 5;
+    gap: 10px;
+}
+.profile{
+    margin-right: 1%;
+    display: flex;
+    padding-top: 2%;
+    color: white;
+    font-size: 20px;
+    gap: 0px;
+    width: 150%;
+    font-weight: 600;
+}
+.welcome{
+    /* border: 3px solid yellow; */
+    font-size: 20px;
+    margin-right: 3%;
+}
+.viewProfile:hover{
+    cursor: pointer;
+}
+.SignOut{
+    background-color: whitesmoke;
+   border-radius: 5px;
+   text-align: center;
+   color: #003580;
+   font-size: 20px;
+   font-weight: 500;
+   width: 80%;
+   position: relative;
+   left: 15px;
+    bottom: 10px;
+    margin: 4% 0;
+}
+.IconOut:hover{
+    color: rgb(131, 128, 128);
+    
+  }
+.proOption{
+    margin-bottom: 3%;
+    cursor: pointer;
+    width: 90%;
+    margin: auto;
+}
+.proOption:hover{
+    box-shadow: 0px 0px 2px 2px rgb(162, 161, 161);
+}
+.logo{
+    font-weight: 500;
+}
+.navButton{
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #003580;
+}
+@media (min-width:300px) and (max-width:500px) {
+    .navBarW{
+        
+        background-color: #003580;
+        /* background-color: black; */
+        height: 20vh;
+        width: 145vh;
+    }
+    .navbar{
+        width: 115vh;
+        height: 20vh;
+       
+    }
+   
+    .sideBar{
+       
+        margin-left: 5%;
+    }
+    .site{
+            font-size: 45px;        
+    }
+   .logo{
+   
+    position: relative;
+    top: 20px;
+    margin-right: 2%;
+   }
+   .profileDesc{
+   
+   height:20vh;
+    width: 40%;
+    font-size: 35px;  
+    margin-right: -10%;
+}
+.profile{
+    text-align: right;
+}
+
+.welcome{
+    /* border: 3px solid yellow; */
+    font-size: 40px;
+    margin-right: 3%;
+    padding-top: 8%;
+    /* ****************************** */
+}
+.viewProfile{
+    padding-top: 0%;
+    width: 5%; 
+    background-color: white;
+    margin-top: 10%;
+    padding-bottom: 0;
+}
+  .IconOut{
+    background-color: white;
+    color: #003580;
+    padding-bottom: -20px;
+    
+  }
+ 
+
+  .viewSideBar{
+    /* border: 2px solid red; */
+    /* background-color: yellow; */
+    top: 20%;
+    left:-90%;
+    height: 50vh;
+    transform:translateX(2%);
+    transition: all 0.6s;
+  }
+  .active{
+    left: -2%;
+}
+
+}

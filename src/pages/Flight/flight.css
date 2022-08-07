@@ -1,0 +1,18 @@
+.FlightFooter{
+    width: 80%;
+    margin-left: 16%;
+}
+.FlightMail{
+    margin-right: 5%;
+}
+@media (min-width:300px) and (max-width:500px) {
+    .FlightMail{
+        width: 100vh;
+        margin-left: -20%;
+    }
+    .FlightFooter{
+        width: 120vh;
+        margin-left: 40%;
+       
+    }
+}
